@@ -5,5 +5,7 @@
 </script>
 
 <Navbar />
-<Aside />
-<slot />
+<div class="flex w-full">
+  <div class="w-1/6"><Aside /></div>
+  <div class="w-5/6"><slot /></div>
+</div>
